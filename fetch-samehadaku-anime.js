@@ -6,7 +6,7 @@ const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Base URL for the API
-const BASE_URL = 'https://animeh.lopyubibil.site';
+const BASE_URL = 'https://apihira.vercel.app';
 
 // Function to fetch anime list from home page
 async function fetchAnimeList() {
